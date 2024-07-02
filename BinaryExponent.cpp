@@ -13,8 +13,8 @@ int binpow(int a,int n){
 }
 int main(){
     //binary exponentiation
-    int a,b; cin>>a>>b;
-    int res=1;
+    long long a,b; cin>>a>>b;
+    long long  res=1;
     long long m = 1e9+7;
     a=a%m;
     while(b){
